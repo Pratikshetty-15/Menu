@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: darkblue;
+    position: sticky;
+}
+#menu{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+#warning{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color:yellow;
+    position: absolute;
+    display: none;
+}
+#ref:hover #warning{
+    display: block;
+}
+.risk{
+    color: red;
+}
+#vopt{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: darkcyan;
+    position: absolute;
+    display: none;
+}
+#veg:hover #vopt{
+    display: block;
+}
+#nvopt{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: darkorchid;
+    position: absolute;
+    display: none;
+}
+#nveg:hover #nvopt{
+    display: block;
+}
+#drinks{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: darkolivegreen;
+    position: absolute;
+    display: none;
+}
+#bevs:hover #drinks{
+    display: block;
+}
+a:hover{
+    background-color: white;
+    color: brown;
+}
